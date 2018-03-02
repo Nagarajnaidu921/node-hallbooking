@@ -1,0 +1,25 @@
+{
+  "name": "node-hallbooking",
+  "version": "1.0.0",
+  "description": "hall booking",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js || node server.js",
+    "pre": "node scripts"
+  },
+  "author": "Nagaraj V",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "config": "^1.29.4",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "html-pdf": "^2.2.0",
+    "jsonwebtoken": "^8.1.1",
+    "moment": "^2.20.1",
+    "moment-range": "^3.1.1",
+    "mongoose": "^5.0.6",
+    "uuid": "^3.2.1"
+  }
+}
